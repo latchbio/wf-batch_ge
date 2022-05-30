@@ -1,4 +1,4 @@
-FROM 812206152185.dkr.ecr.us-west-2.amazonaws.com/wf-base:fbe8-main
+FROM 812206152185.dkr.ecr.us-west-2.amazonaws.com/latch-base:02ab-main
 
 RUN apt-get update -y &&\
     apt-get install -y wget libncurses5
